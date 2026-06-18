@@ -235,15 +235,15 @@ function Login() {
           description={showcaseContent.description}
           metrics={showcaseContent.metrics}
           onBack={() => navigate("/")}
-          footerLabel="Create a new CodeCraft account"
+          footerLabel="Create a new CodeArena account"
           onFooterClick={() => navigate("/register")}
         />
 
         <form className="auth-card" onSubmit={(e) => e.preventDefault()}>
           <div className="auth-card-brand">
-            <img src="/logo.png" alt="CodeCraft Logo" />
+            <img src="/logo.png" alt="CodeArena Logo" />
             <div>
-              <span>CodeCraft</span>
+              <span>CodeArena</span>
               <small>Roadmaps, practice, portfolio, and jobs in one flow.</small>
             </div>
           </div>

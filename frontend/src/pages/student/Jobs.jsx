@@ -481,7 +481,7 @@ function Jobs() {
 
   const handleExtractSkills = async (saveToProfile = false) => {
     if (!resumeText.trim()) {
-      setResumeError("Paste your resume text first so CodeCraft can extract skills.");
+      setResumeError("Paste your resume text first so CodeArena can extract skills.");
       setResumeSuccess("");
       return;
     }
@@ -535,10 +535,10 @@ function Jobs() {
       <div className="sd-container jobs-page">
         <section className="jobs-hero">
           <div className="jobs-hero-copy">
-            <span className="eyebrow">CodeCraft Jobs</span>
+            <span className="eyebrow">CodeArena Jobs</span>
             <h1>Recommended roles matched to your skills</h1>
             <p>
-              CodeCraft stores job metadata only, calculates your skill-fit percentage, and sends you
+              CodeArena stores job metadata only, calculates your skill-fit percentage, and sends you
               to the original job source when you apply.
             </p>
           </div>
@@ -968,7 +968,7 @@ function Jobs() {
                 </div>
               ) : (
                 <p className="sidebar-copy">
-                  Once jobs have missing skills, CodeCraft will highlight the strongest skill gaps here.
+                  Once jobs have missing skills, CodeArena will highlight the strongest skill gaps here.
                 </p>
               )}
             </div>
@@ -1028,7 +1028,7 @@ function Jobs() {
                 Compliance note
               </h3>
               <p className="sidebar-copy">
-                CodeCraft Jobs does not host applications and does not scrape restricted platforms. It stores metadata and redirects you to the original source.
+                CodeArena Jobs does not host applications and does not scrape restricted platforms. It stores metadata and redirects you to the original source.
               </p>
             </div>
           </aside>

@@ -1,7 +1,7 @@
 // // // config/cors.js
 
 // const allowedOrigins = [
-//   "https://codecraft-frontend-9qqk.onrender.com",
+//   "https://codearena-frontend-9qqk.onrender.com",
 //   "http://localhost:5173",
 //   "http://localhost:3000"
 // ];
@@ -31,7 +31,7 @@ const envOrigins = [
   .filter(Boolean);
 
 const allowedOrigins = new Set([
-  "https://codecraft-frontend-9qqk.onrender.com",
+  "https://codearena-frontend-9qqk.onrender.com",
   "http://localhost:5173",
   "http://localhost:3000",
   ...envOrigins

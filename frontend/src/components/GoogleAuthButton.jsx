@@ -5,7 +5,7 @@ import { getHomePathForRole, storeAuthSession } from "../utils/auth";
 
 const GOOGLE_SCRIPT_SRC = "https://accounts.google.com/gsi/client";
 const PLACEHOLDER_GOOGLE_CLIENT_ID = "your-google-client-id";
-const GOOGLE_STATE_KEY = "__codecraftGoogleIdentityState";
+const GOOGLE_STATE_KEY = "__codearenaGoogleIdentityState";
 
 let googleScriptPromise;
 

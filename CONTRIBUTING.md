@@ -1,6 +1,6 @@
-# Contributing to CodeCraft
+# Contributing to CodeArena
 
-Thank you for your interest in contributing to CodeCraft! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to CodeArena! This document provides guidelines and instructions for contributing.
 
 ## Code of Conduct
 
@@ -50,8 +50,8 @@ Thank you for your interest in contributing to CodeCraft! This document provides
 
 ```bash
 # Clone your fork
-git clone https://github.com/your-username/CodeCraft.git
-cd CodeCraft
+git clone https://github.com/your-username/CodeArena.git
+cd CodeArena
 
 # Install dependencies
 cd backend && npm install
@@ -121,4 +121,4 @@ Contributors will be recognized in:
 
 ---
 
-Thank you for making CodeCraft better! 🎉
+Thank you for making CodeArena better! 🎉

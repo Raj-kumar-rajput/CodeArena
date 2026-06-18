@@ -57,11 +57,11 @@ export const sendOTPEmail = async (email, otp) => {
     const mailOptions = {
       from: getEmailFrom(),
       to: email,
-      subject: 'CodeCraft - Password Reset OTP',
+      subject: 'CodeArena - Password Reset OTP',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Password Reset Request</h2>
-          <p>You requested a password reset for your CodeCraft account.</p>
+          <p>You requested a password reset for your CodeArena account.</p>
           
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <p style="margin: 0; color: #666;">Your OTP Code:</p>
@@ -72,7 +72,7 @@ export const sendOTPEmail = async (email, otp) => {
           <p style="color: #666;">If you didn't request this, please ignore this email.</p>
           
           <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
-          <p style="font-size: 12px; color: #999;">CodeCraft Security Team</p>
+          <p style="font-size: 12px; color: #999;">CodeArena Security Team</p>
         </div>
       `
     };
@@ -105,7 +105,7 @@ export const sendPasswordResetSuccessEmail = async (email, name) => {
     const mailOptions = {
       from: getEmailFrom(),
       to: email,
-      subject: 'CodeCraft - Password Reset Successful',
+      subject: 'CodeArena - Password Reset Successful',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Password Reset Successful</h2>
@@ -118,7 +118,7 @@ export const sendPasswordResetSuccessEmail = async (email, name) => {
           </div>
           
           <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
-          <p style="font-size: 12px; color: #999;">CodeCraft Security Team</p>
+          <p style="font-size: 12px; color: #999;">CodeArena Security Team</p>
         </div>
       `
     };
@@ -199,7 +199,7 @@ export const sendMentorBookingEmails = async ({
     await transporter.sendMail({
       from,
       to: studentEmail,
-      subject: `CodeCraft - Session booked with ${mentorName}`,
+      subject: `CodeArena - Session booked with ${mentorName}`,
       html: `
         <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;">
           <h2 style="color:#111827;">Mentor session booked</h2>
@@ -207,7 +207,7 @@ export const sendMentorBookingEmails = async ({
           <p>Your mentor session request with <strong>${mentorName}</strong> has been submitted.</p>
           ${summaryHtml}
           <p>We also notified ${mentorName} so both of you can coordinate the session.</p>
-          <p style="color:#6b7280;font-size:12px;">CodeCraft Mentor Desk</p>
+          <p style="color:#6b7280;font-size:12px;">CodeArena Mentor Desk</p>
         </div>
       `,
     });
@@ -225,7 +225,7 @@ export const sendMentorBookingEmails = async ({
     await transporter.sendMail({
       from,
       to: mentorEmail,
-      subject: `CodeCraft - New session request from ${studentName}`,
+      subject: `CodeArena - New session request from ${studentName}`,
       html: `
         <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;">
           <h2 style="color:#111827;">New mentor session request</h2>
@@ -233,7 +233,7 @@ export const sendMentorBookingEmails = async ({
           <p><strong>Student email:</strong> ${studentEmail}</p>
           ${summaryHtml}
           <p>Please connect with the student using the contact details above.</p>
-          <p style="color:#6b7280;font-size:12px;">CodeCraft Mentor Desk</p>
+          <p style="color:#6b7280;font-size:12px;">CodeArena Mentor Desk</p>
         </div>
       `,
     });

@@ -27,9 +27,9 @@ const RecruiterLayoutContent = ({ children }) => {
       {/* SIDEBAR */}
       <aside className={`rec-sidebar ${open ? "open" : ""}`}>
         <div className="rec-logo">
-          <img src="/logo.png" alt="CodeCraft Logo" />
+          <img src="/logo.png" alt="CodeArena Logo" />
           <div className="rec-logo-copy">
-            <strong>CodeCraft</strong>
+            <strong>CodeArena</strong>
             <span>Recruiter</span>
           </div>
         </div>

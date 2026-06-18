@@ -73,7 +73,7 @@ const getDateBoundaryIso = ({ daysAgo = 0, endOfDay = false } = {}) => {
 };
 
 const createPublicHeaders = (extraHeaders = {}) => ({
-  'User-Agent': 'CodeCraft-Dashboard-Sync',
+  'User-Agent': 'CodeArena-Dashboard-Sync',
   Accept: 'application/json, text/html;q=0.9, */*;q=0.8',
   ...extraHeaders,
 });

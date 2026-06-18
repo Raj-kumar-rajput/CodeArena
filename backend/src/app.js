@@ -56,7 +56,7 @@ app.use(express.urlencoded({ extended: true, limit: requestBodyLimit }));
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "🚀 CodeCraft Backend API running"
+    message: "🚀 CodeArena Backend API running"
   });
 });
 

@@ -8,8 +8,8 @@ function StudentSidebar({ open, setOpen }) {
 
       <aside className={`sd-sidebar ${open ? "open" : ""}`}>
         <div className="sd-logo">
-          <img src="/logo.png" alt="CodeCraft Logo" />
-          <span>CodeCraft</span>
+          <img src="/logo.png" alt="CodeArena Logo" />
+          <span>CodeArena</span>
         </div>
 
         <nav>

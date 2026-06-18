@@ -6,29 +6,29 @@ import Job from "../models/Job.model.js";
 import User from "../models/User.model.js";
 
 const DEMO_RECRUITER = {
-  name: "CodeCraft Demo Recruiter",
-  email: "demo.recruiter@codecraft.local",
+  name: "CodeArena Demo Recruiter",
+  email: "demo.recruiter@codearena.local",
   password: "Password@123",
   role: "recruiter",
-  companyName: "CodeCraft Labs",
+  companyName: "CodeArena Labs",
   industry: "Software",
-  website: "https://codecraft.example.com",
+  website: "https://codearena.example.com",
 };
 
 const DEMO_ORGANIZER = {
-  name: "CodeCraft Demo Organizer",
-  email: "demo.organizer@codecraft.local",
+  name: "CodeArena Demo Organizer",
+  email: "demo.organizer@codearena.local",
   password: "Password@123",
   role: "organizer",
-  organizationName: "CodeCraft Community",
+  organizationName: "CodeArena Community",
   organizationType: "Tech Community",
-  website: "https://community.codecraft.example.com",
+  website: "https://community.codearena.example.com",
 };
 
 const buildDemoJobs = () => [
   {
     title: "Frontend Developer Intern",
-    company: "CodeCraft Labs",
+    company: "CodeArena Labs",
     source: "company",
     type: "internship",
     experience: "0-1 years",
@@ -48,13 +48,13 @@ const buildDemoJobs = () => [
       max: 28000,
       currency: "INR",
     },
-    applyUrl: "https://codecraft.example.com/jobs/frontend-developer-intern",
+    applyUrl: "https://codearena.example.com/jobs/frontend-developer-intern",
     expiresAt: new Date(Date.now() + 1000 * 60 * 60 * 24 * 30),
     status: "active",
   },
   {
     title: "MERN Stack Developer",
-    company: "CodeCraft Labs",
+    company: "CodeArena Labs",
     source: "company",
     type: "fulltime",
     experience: "1-3 years",
@@ -74,13 +74,13 @@ const buildDemoJobs = () => [
       max: 800000,
       currency: "INR",
     },
-    applyUrl: "https://codecraft.example.com/jobs/mern-stack-developer",
+    applyUrl: "https://codearena.example.com/jobs/mern-stack-developer",
     expiresAt: new Date(Date.now() + 1000 * 60 * 60 * 24 * 45),
     status: "active",
   },
   {
     title: "AI Product Engineering Intern",
-    company: "CodeCraft Labs",
+    company: "CodeArena Labs",
     source: "company",
     type: "internship",
     experience: "0-1 years",
@@ -100,7 +100,7 @@ const buildDemoJobs = () => [
       max: 32000,
       currency: "INR",
     },
-    applyUrl: "https://codecraft.example.com/jobs/ai-product-engineering-intern",
+    applyUrl: "https://codearena.example.com/jobs/ai-product-engineering-intern",
     expiresAt: new Date(Date.now() + 1000 * 60 * 60 * 24 * 20),
     status: "active",
   },
@@ -108,7 +108,7 @@ const buildDemoJobs = () => [
 
 const buildDemoEvents = () => [
   {
-    name: "CodeCraft Build Sprint 2026",
+    name: "CodeArena Build Sprint 2026",
     description:
       "A 36-hour hackathon focused on student productivity, developer tooling, and portfolio-ready product builds.",
     theme: "Developer Productivity and AI Workflows",

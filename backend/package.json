@@ -1,7 +1,7 @@
 {
-  "name": "codecraft-backend",
+  "name": "codearena-backend",
   "version": "1.0.0",
-  "description": "Backend for CodeCraft platform",
+  "description": "Backend for CodeArena platform",
   "main": "src/server.js",
   "type": "module",
   "scripts": {

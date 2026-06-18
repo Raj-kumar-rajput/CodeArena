@@ -55,7 +55,7 @@ const MyJobs = () => {
     <RecruiterLayout>
       <div className="page-intro">
         <h1>My Jobs</h1>
-        <p>Review the external jobs you have published into CodeCraft Jobs.</p>
+        <p>Review the external jobs you have published into CodeArena Jobs.</p>
       </div>
 
       {error && <p className="error">{error}</p>}

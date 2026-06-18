@@ -120,8 +120,8 @@ function Landing() {
 
       <header className="landing-header landing-shell">
         <button type="button" className="landing-brand" onClick={() => scrollToSection("top")}>
-          <img src="/logo.png" alt="CodeCraft logo" />
-          <span>CodeCraft</span>
+          <img src="/logo.png" alt="CodeArena logo" />
+          <span>CodeArena</span>
         </button>
 
         <nav className="landing-nav" aria-label="Landing navigation">
@@ -152,7 +152,7 @@ function Landing() {
             </span>
             <h1>Build skill into proof.</h1>
             <p>
-              CodeCraft brings practice, roadmaps, portfolios, jobs, and hackathons into one
+              CodeArena brings practice, roadmaps, portfolios, jobs, and hackathons into one
               role-aware workspace for students, recruiters, and organizers.
             </p>
 
@@ -301,7 +301,7 @@ function Landing() {
           <div className="section-heading">
             <span className="section-kicker">Workflow</span>
             <h2>From learning work to visible outcomes.</h2>
-            <p>CodeCraft keeps the next task close, whether that means solving, applying, hiring, or organizing.</p>
+            <p>CodeArena keeps the next task close, whether that means solving, applying, hiring, or organizing.</p>
           </div>
 
           <div className="steps-row">
@@ -375,7 +375,7 @@ function Landing() {
 
         <section className="cta-panel">
           <span className="section-kicker">Start building</span>
-          <h2>Open your CodeCraft workspace.</h2>
+          <h2>Open your CodeArena workspace.</h2>
           <p>Create an account for your role and move straight into the dashboard designed for it.</p>
           <button type="button" className="btn-primary cta-button" onClick={() => navigate("/register")}>
             Get started
@@ -388,8 +388,8 @@ function Landing() {
         <div className="footer-inner">
           <div className="footer-brand">
             <div className="footer-logo">
-              <img src="/logo.png" alt="CodeCraft logo" />
-              <span>CodeCraft</span>
+              <img src="/logo.png" alt="CodeArena logo" />
+              <span>CodeArena</span>
             </div>
             <p>Practice, portfolio, jobs, and hackathons in one role-aware career workspace.</p>
           </div>

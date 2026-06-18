@@ -13,7 +13,7 @@ rahul-portfolio.vercel.app
 
 Education
 B.Tech in Computer Science
-CodeCraft Institute of Technology
+CodeArena Institute of Technology
 2026
 
 Skills
@@ -26,9 +26,9 @@ May 2025 - July 2025
 Built dashboard components, integrated REST APIs, and improved performance.
 
 Projects
-CodeCraft Jobs Platform
+CodeArena Jobs Platform
 Built a MERN job recommendation platform with skill matching and resume upload.
-https://github.com/rahul-dev/codecraft-jobs
+https://github.com/rahul-dev/codearena-jobs
 
 Portfolio Website
 Personal portfolio with projects and contact links.
@@ -84,7 +84,7 @@ test("parseResumeForStudentProfile autofills key student profile fields from tex
   assert.equal(result.mergedProfile.email, "rahul.sharma@example.com");
   assert.equal(result.mergedProfile.phone, "+91 9876543210");
   assert.equal(result.mergedProfile.degree, "B.Tech");
-  assert.equal(result.mergedProfile.college, "CodeCraft Institute of Technology");
+  assert.equal(result.mergedProfile.college, "CodeArena Institute of Technology");
   assert.ok(result.mergedProfile.skills.includes("React"));
   assert.ok(result.mergedProfile.skills.includes("Node.js"));
   assert.ok(result.mergedProfile.projects.length >= 1);

@@ -118,7 +118,7 @@ const PostJob = () => {
         },
       });
 
-      setSuccessMessage("Job saved successfully. It will appear in CodeCraft Jobs with external apply redirect and skill-based matching.");
+      setSuccessMessage("Job saved successfully. It will appear in CodeArena Jobs with external apply redirect and skill-based matching.");
       setForm(INITIAL_FORM);
     } catch (error) {
       setErrors({
@@ -134,7 +134,7 @@ const PostJob = () => {
       <div className="page-intro">
         <h1>Manual Job Entry</h1>
         <p>
-          Add structured job metadata, required skills, and an external apply link. CodeCraft will recommend the role but will not host the application itself.
+          Add structured job metadata, required skills, and an external apply link. CodeArena will recommend the role but will not host the application itself.
         </p>
       </div>
 

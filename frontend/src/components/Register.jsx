@@ -10,7 +10,7 @@ import useScrollReveal from "../hooks/useScrollReveal";
 import "../styles/auth.css";
 
 const REGISTER_SHOWCASE = {
-  badge: "Launch your CodeCraft workspace",
+  badge: "Launch your CodeArena workspace",
   title: "Start with a profile that already feels career-ready.",
   description:
     "Create your account, choose your role, and move into the same roadmap, practice, portfolio, and hiring flow from day one.",
@@ -130,9 +130,9 @@ function Register() {
 
         <form className="auth-card" onSubmit={(e) => e.preventDefault()}>
           <div className="auth-card-brand">
-            <img src="/logo.png" alt="CodeCraft Logo" />
+            <img src="/logo.png" alt="CodeArena Logo" />
             <div>
-              <span>CodeCraft</span>
+              <span>CodeArena</span>
               <small>Create your workspace and start building career signal.</small>
             </div>
           </div>

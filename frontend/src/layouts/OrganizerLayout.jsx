@@ -28,9 +28,9 @@ const OrganizerLayoutContent = ({ children }) => {
         {/* SIDEBAR */}
         <aside className={`org-sidebar ${open ? "open" : ""}`}>
           <div className="org-logo">
-            <img src="/logo.png" alt="CodeCraft Logo" />
+            <img src="/logo.png" alt="CodeArena Logo" />
             <div className="org-logo-copy">
-              <strong>CodeCraft</strong>
+              <strong>CodeArena</strong>
               <span>Organizer</span>
             </div>
           </div>
